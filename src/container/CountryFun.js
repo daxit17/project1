@@ -13,7 +13,7 @@ export default function CountryFun(props) {
     <div>
         <p>{CountryName}</p>
         <button onClick={() => ChangeCountry()}>Change Country</button>
-        <CityFun id='102' country_name ={props.CountryName}/>
+        <CityFun id='102' country_name ={CountryName}/>
     </div>
   )
 }
